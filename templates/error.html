@@ -1,0 +1,21 @@
+{% extends 'base.html'%} <!-- 声明引用模板 -->
+{% load static %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block header_extends %}
+    <link rel="stylesheet" href="{% static 'css/error.css' %}">
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+{% endblock %}
+
+{% block content %}
+    <div class="info-box">
+        <div class="shake-chunk shake-constant">
+            <h1 class="info-title">{{ title }}</h1>
+        </div>
+        <h2>{{ message }}</h2>
+        <p><a class="btn btn-primary btn-lg" href="{% url 'home' %}" role="button">返回首页</a></p>
+    </div>
+{% endblock %}

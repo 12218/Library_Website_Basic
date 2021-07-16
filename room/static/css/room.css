@@ -1,0 +1,62 @@
+ul.room-types {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+div.room:not(:first-child) {
+    padding-top: 1em;
+    border-top: 2px solid #ccc;
+}
+
+div.room h3 {
+    margin-top: 0.5em;
+}
+
+p.room-author {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 1em;
+}
+
+p.room-time {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 1em;
+}
+
+p.room-category {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 1em;
+    margin-bottom: 0;
+}
+
+p.room-read-num {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 1em;
+    margin-bottom: 0;
+}
+
+ul.room-detail-info {
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+
+ul.room-detail-info li{
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 2em;
+}
+
+div.room-content {
+    text-indent: 2em; /* 首行缩进2字符 */
+}
+
+div.paginator {
+    text-align: center;
+}
+
+div.room-more {
+    margin-top: 1em;
+}
